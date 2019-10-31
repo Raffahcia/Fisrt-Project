@@ -1,0 +1,132 @@
+* {
+    font-family:"Helvetiva", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+cite,h1 {
+    color:white;
+    font-weight: bold;
+}
+
+#selfie {
+    display: block;
+    margin: auto;
+    height: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(4, 4, 49);
+}
+
+.navbar li {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    vertical-align: middle;
+    background-image: url(../images/mudança_de_visao_1.png);
+    background-size: cover;
+    width: 100%;
+    position: static;
+}
+
+#Contact li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.whatsapp {
+    background-image: url(../images/Whatsapp.png);
+    text-decoration: none;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mail {
+    background-image: url(../images/mail.png);
+    text-decoration: none;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.outlook {
+    background-image: url(../images/outlook.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.github {
+    background-image: url(../images/github.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top {
+    margin-left: 92%;
+    margin-right: 4%;
+    height: 10px;
+}
+
+#top-button{
+    height: 50px;
+}
+
+#About {
+    padding: 80px; 
+    background-color: rgba(181, 198, 218, 0.315);
+}
+
+#Skills {
+    padding: 30px;
+}
+
+#Portfolio {
+    padding: 30px;
+}
+
+#Contact {
+    padding: 30px;
+}
